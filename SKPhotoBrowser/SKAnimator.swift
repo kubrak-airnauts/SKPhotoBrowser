@@ -22,7 +22,7 @@ class SKAnimator: NSObject, SKPhotoBrowserAnimatorDelegate {
         guard let window = UIApplication.shared.preferredApplicationWindow else { fatalError() }
         
         let backgroundView = UIView(frame: window.frame)
-        let bgColor = UIColor(red: 246 / 255.0, green: 246 / 255.0, blue: 246 / 255.0, alpha: alpha)
+        let bgColor = UIColor(red: 246 / 255.0, green: 246 / 255.0, blue: 246 / 255.0, alpha: 1.0)
         backgroundView.backgroundColor = bgColor
         backgroundView.alpha = 0.0
         return backgroundView
